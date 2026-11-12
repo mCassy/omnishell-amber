@@ -2,6 +2,11 @@
 
 An amber terminal-screen bar for OmniWM: square cells, a pixel font and pixel icons on charcoal.
 
+## Previews
+
+![bar-left](previews/bar-left.png)
+![bar-right](previews/bar-right.png)
+
 ## Install
 
 In OmniWM, open **Settings > Styles & Widgets > Get Styles > Add from GitHub**, paste this
