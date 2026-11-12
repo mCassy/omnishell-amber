@@ -26,3 +26,5 @@ repository's address, and install **Amber**.
 Style code is GPL-2.0-only (see [LICENSE](LICENSE)); it builds on OmniWM's Default skin by
 OmniNull. Fonts ship with their notices in `fonts/`: Departure Mono (SIL Open Font License 1.1)
 and Pixelarticons (MIT).
+
+Made with the help of AI (Claude).
