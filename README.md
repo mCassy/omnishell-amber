@@ -11,7 +11,7 @@ An amber terminal-screen bar for OmniWM: square cells, a pixel font and pixel ic
 
 The bar reads like an old amber terminal. Every corner is square, from bar cells to popouts.
 Text is set in Departure Mono with a faint phosphor glow, and icons are Pixelarticons pixel
-glyphs. One fixed palette, amber on charcoal, is used in both light and dark mode. Workspaces
+glyphs. Dark mode is amber on charcoal; light mode is dark amber ink on cream paper. Workspaces
 are numbered square cells, and the focused one gets an amber outline. The volume icon follows
 the output: headphones for Bluetooth, a mic for USB headsets, a speaker otherwise. A power
 button at the right edge opens Lock, Sleep, Log Out, Restart and Shut Down.
