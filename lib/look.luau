@@ -184,7 +184,7 @@ look = require("./skin")({
     -- one pixel wifi icon instead of Default's vector fan; signal level isn't shown
     wifiBar = function(ctx, state)
         local name = if state.wired then "network" elseif state.power and state.connected then "wifi" else "wifi.slash"
-        return look.bar(ctx, { look.barGlyph(ctx, { name = name }) })
+        return look.bar(ctx, { hover = look.hover, look.barGlyph(ctx, { name = name }) })
     end,
     -- Default's volume picks its icon by device kind, which USB headsets don't report; go by transport
     volumeBar = function(ctx, m)
@@ -195,7 +195,7 @@ look = require("./skin")({
             end
         end
         local name = if m.muted then "speaker.slash.fill" else OUTPUT_ICONS[transport] or m.symbol
-        local props = { look.barGlyph(ctx, { name = name }) }
+        local props = { hover = look.hover, look.barGlyph(ctx, { name = name }) }
         if m.volume then
             props[2] = look.text{ text = m.percent }
         end
