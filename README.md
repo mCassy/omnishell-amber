@@ -1,6 +1,6 @@
 # Amber
 
-An amber terminal-screen bar for OmniWM: square cells, a pixel font and pixel icons on charcoal.
+An amber terminal-screen bar for [OmniWM](https://github.com/OmniNull/OmniWM): square cells, a pixel font and pixel icons on charcoal.
 
 ## Previews
 
