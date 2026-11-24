@@ -1,7 +1,7 @@
 -- SPDX-License-Identifier: GPL-2.0-only
 -- Copyright (C) 2026 OmniNull — https://github.com/OmniNull/OmniWM
 
--- Amber: Default's menu-button with the symbol drawn through look.barGlyph (pixel icon, bar size)
+-- Amber: Default's menu-button with the symbol drawn through look.barGlyph (style icon, bar size)
 -- and square corners; compare with default/lib/menu-button.luau when it changes.
 
 local look = require("./look")
