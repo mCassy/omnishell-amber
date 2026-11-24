@@ -25,6 +25,7 @@ repository's address, and install **Amber**.
 
 Style code is GPL-2.0-only (see [LICENSE](LICENSE)); it builds on OmniWM's Default skin by
 OmniNull. Fonts ship with their notices in `fonts/`: Departure Mono (SIL Open Font License 1.1)
-and Pixelarticons (MIT).
+Pixelarticons (MIT) and sketchybar-app-font (CC0 1.0), whose glyphs stand in for the app icons
+in the workspace cells (`lib/app-icons.luau` is generated from its icon map).
 
 Made with the help of AI (Claude).
