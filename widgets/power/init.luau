@@ -45,10 +45,10 @@ function popout(ctx: Context)
     for _, action in ACTIONS do
         local shutdown = action.command == "session shutdown"
         rows[#rows + 1] = ui.row{ key = action.command, w = WIDTH - 20, gap = 10, pad = 6, radius = look.radius(8),
-            hover = if shutdown then "error/0.12" else HOVER, onClick = action.command,
+            hover = if shutdown then "accent/0.12" else HOVER, onClick = action.command,
             look.glyph{ name = action.symbol, w = 14, h = 14,
-                color = if shutdown then "error" else "secondaryForeground" },
-            look.text{ text = action.label(), color = if shutdown then "error" else nil } }
+                color = if shutdown then "accent" else "secondaryForeground" },
+            look.text{ text = action.label(), color = if shutdown then "accent" else nil } }
     end
     return panel(ctx.data.bar.style, rows)
 end
