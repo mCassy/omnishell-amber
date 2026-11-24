@@ -36,8 +36,8 @@ function render(ctx: Context)
     local size = 32 * style.height / 40
     return ui.stack{ w = size, h = size, radius = look.radius(size / 2 - 1),
         fill = if style.backgrounds then "surface" else nil, border = if style.backgrounds then "border/0.6" else nil,
-        borderWidth = 1, hover = "error/0.12", onClick = ui.popout, help = omniwm.l10n("Shut Down…"),
-        look.barGlyph(ctx, { name = "power", color = "error" }) }
+        borderWidth = 1, hover = "accent/0.12", onClick = ui.popout, help = omniwm.l10n("Shut Down…"),
+        look.barGlyph(ctx, { name = "power", color = "accent" }) }
 end
 
 function popout(ctx: Context)
