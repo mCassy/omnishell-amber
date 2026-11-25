@@ -11,7 +11,7 @@ An amber terminal-screen bar for [OmniWM](https://github.com/OmniNull/OmniWM): s
 
 The bar reads like an old amber terminal. Every corner is square, from bar cells to popouts.
 Text is set in Departure Mono with a faint phosphor glow, and icons are Material Symbols
-Sharp, with app icons from sketchybar-app-font. Dark mode is amber on charcoal; light mode is dark amber ink on cream paper. Workspaces
+Sharp. Dark mode is amber on charcoal; light mode is dark amber ink on cream paper. Workspaces
 are numbered square cells, and the focused one gets an amber outline. The volume icon follows
 the output: headphones for Bluetooth, a mic for USB headsets, a speaker otherwise. A power
 button at the right edge opens Lock, Sleep, Log Out, Restart and Shut Down.
@@ -24,8 +24,7 @@ repository's address, and install **Amber**.
 ## Credits and licences
 
 Style code is GPL-2.0-only (see [LICENSE](LICENSE)); it builds on OmniWM's Default skin by
-OmniNull. Fonts ship with their notices in `fonts/`: Departure Mono (SIL Open Font License 1.1),
-Material Symbols Sharp (Apache 2.0) and sketchybar-app-font (CC0 1.0), whose glyphs stand in for the app icons
-in the workspace cells (`lib/app-icons.luau` is generated from its icon map).
+OmniNull. Fonts ship with their notices in `fonts/`: Departure Mono (SIL Open Font License 1.1)
+and Material Symbols Sharp (Apache 2.0).
 
 Made with the help of AI (Claude).
