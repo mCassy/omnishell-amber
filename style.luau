@@ -1,0 +1,12 @@
+return {
+    format = 1,
+    name = "amber",
+    version = "2.0.0",
+    api = 1,
+    author = "Misha Krasilynets",
+    license = "GPL-2.0-only",
+    tags = { "retro", "pixel", "amber", "terminal" },
+    title = "Amber",
+    summary = "An amber terminal-screen bar: square cells, a pixel font and sharp icons.",
+    previews = { "bar-left.png", "bar-right.png" },
+}
